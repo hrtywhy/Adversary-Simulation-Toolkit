@@ -282,7 +282,7 @@ Explore the `Use Case` directory for detailed simulation plans and scenarios.
 - **[Iranian APTs](Use%20Case/Iranian%20APT)**: Includes **Helix Kitten**, **Pioneer Kitten**, and others.
 - **[Data Exfiltration](Use%20Case/Data%20Exfiltration/VeilTF)**: Simulation of data exfiltration techniques using tools like **VeilTF**.
 
-## � References & Learning Resources
+## 📚 References & Learning Resources
 *Curated list of blogs, videos, and guides for advanced techniques.*
 
 **Privilege Escalation**
@@ -311,7 +311,7 @@ Explore the `Use Case` directory for detailed simulation plans and scenarios.
 - [Bypassing Antivirus](https://sushant747.gitbooks.io/total-oscp-guide/content/bypassing_antivirus.html)
 - [Red Team Tips](https://www.redteam.tips/)
 
-## �📦 Installation & Usage
+## 📦 Installation & Usage
 1. Clone the repository:
    ```bash
    git clone https://github.com/hrtywhy/Adversary-Simulation-Toolkit.git
