@@ -1,5 +1,3 @@
-# Adversary Simulation Toolkit
-
 ## 🚀 Overview
 **Adversary Simulation Toolkit** is a comprehensive collection of utilities and resources designed for red teaming, adversary emulation, and security research. This repository serves as a centralized hub for tools, use cases, and documentation to facilitate realistic threat simulation.
 
