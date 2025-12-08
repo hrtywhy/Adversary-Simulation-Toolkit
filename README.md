@@ -3,6 +3,13 @@
 ## 🚀 Overview
 **Adversary Simulation Toolkit** is a comprehensive collection of utilities and resources designed for red teaming, adversary emulation, and security research. This repository serves as a centralized hub for tools, use cases, and documentation to facilitate realistic threat simulation.
 
+## 🧠 Concepts
+**What is Adversary Emulation?**
+Adversary emulation leverages adversary tactics, techniques, and procedures (TTPs), enhanced by cyber threat intelligence, to create a security test based on real-world intrusion campaigns. It helps organizations prioritize threats and verify defenses against specific actors.
+
+**Adversary Emulation Plan**
+To showcase the practical use of ATT&CK, MITRE created Adversary Emulation Plans. These documents outline how to model adversary behavior based on open threat reports, allowing defenders to test their networks against specific APT TTPs rather than just generic vulnerabilities.
+
 ## 🗺️ Attack Navigator
 Visualize and plan your adversary emulation scenarios using the MITRE ATT&CK Navigator.
 - **[MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/)**: A web-based tool for annotating and exploring ATT&CK matrices. Use this to map out the TTPs for your specific simulation plans (e.g., Crypto24).
@@ -18,6 +25,10 @@ This toolkit organizes tools according to the standard Red Team phases, enriched
 - **[OpenBAS](https://github.com/OpenBAS-Platform/openbas)**: Open Breach and Attack Simulation platform.
 - **[Metta](https://github.com/uber-common/metta)**: Adversarial simulation tool by Uber (historical reference).
 - **[Stratus Red Team](https://github.com/DataDog/stratus-red-team)**: "Atomic Red Team" for Cloud (AWS, Azure, GCP).
+- **[Prelude Operator](https://www.prelude.org/)**: Platform for developer-first advanced security mimicking real attacks.
+- **[APTSimulator](https://github.com/NextronSystems/APTSimulator)**: Windows Batch script to make a system look compromised.
+- **[Network Flight Simulator](https://github.com/alphasoc/flightsim)**: Utility to generate malicious network traffic.
+- **[Red Team Automation (RTA)](https://github.com/endgameinc/RTA)**: Framework of scripts modeled after MITRE ATT&CK.
 
 ### 1. Reconnaissance
 *Gathering intelligence on the target.*
@@ -107,6 +118,16 @@ This toolkit organizes tools according to the standard Red Team phases, enriched
 - **[ExternalC2](https://github.com/ryhanson/ExternalC2)**: Library for Cobalt Strike External C2.
 - **[mkhtaccess_red](https://github.com/violentlydave/mkhtaccess_red)**: Auto-generate HTaccess for payload delivery.
 - **[RedFile](https://github.com/outflanknl/RedFile)**: Flask app serving files with intelligence.
+- **[pwndrop](https://github.com/kgretzky/pwndrop)**: Self-deployable file hosting service for red teamers.
+- **[C2concealer](https://github.com/FortyNorthSecurity/C2concealer)**: Generates randomized C2 malleable profiles for Cobalt Strike.
+- **[FindFrontableDomains](https://github.com/rvrsh3ll/FindFrontableDomains)**: Search for potential frontable domains.
+- **[RedWarden](https://github.com/mgeeky/RedWarden)**: Flexible CobaltStrike Malleable Redirector.
+- **[AzureC2Relay](https://github.com/Flangvik/AzureC2Relay)**: Azure Function to validate and relay Cobalt Strike beacon traffic.
+- **[C3](https://github.com/FSecureLABS/C3)**: Custom Command and Control (C3) for esoteric C2 channels.
+- **[redirect.rules](https://github.com/0xZDH/redirect.rules)**: Dynamic redirect.rules generator.
+- **[CobaltBus](https://github.com/Flangvik/CobaltBus)**: Cobalt Strike External C2 Integration via Azure Servicebus.
+- **[SourcePoint](https://github.com/Tylous/SourcePoint)**: C2 profile generator for Cobalt Strike evasion.
+- **[RedGuard](https://github.com/wikiZ/RedGuard)**: C2 front flow control tool to avoid Blue Teams/AVs/EDRs.
 
 **Simulation C2 Frameworks**
 *C2s specifically designed or well-suited for adversary simulation and research.*
@@ -114,6 +135,7 @@ This toolkit organizes tools according to the standard Red Team phases, enriched
 - **[Sliver](https://github.com/BishopFox/sliver)**: Open source cross-platform adversary emulation/red team framework (Go).
 - **[Mythic](https://github.com/its-a-feature/Mythic)**: Collaborative, multi-platform, red teaming framework.
 - **[Havoc](https://github.com/HavocFramework/Havoc)**: Modern and malleable post-exploitation command and control framework.
+- **[shad0w](https://github.com/bats3c/shad0w)**: Post exploitation framework designed to operate covertly.
 - **[Covenant](https://github.com/cobbr/Covenant)**: .NET command and control framework (also listed above).
 
 ### 5. Lateral Movement
@@ -242,14 +264,43 @@ Explore the `Use Case` directory for detailed simulation plans and scenarios.
 - **[North Korean APTs](Use%20Case/North%20Koreans%20APT)**: Includes **Labyrinth Chollima**, **Velvet Chollima**, and others.
 - **[Iranian APTs](Use%20Case/Iranian%20APT)**: Includes **Helix Kitten**, **Pioneer Kitten**, and others.
 
-## 📦 Installation & Usage
+## � References & Learning Resources
+*Curated list of blogs, videos, and guides for advanced techniques.*
+
+**Privilege Escalation**
+- [PayloadsAllTheThings - Windows PrivEsc](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md)
+- [PayloadsAllTheThings - Linux PrivEsc](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
+- [Awesome Privilege Escalation](https://github.com/m0nad/awesome-privilege-escalation)
+- [Windows Kernel Exploits](https://github.com/SecWiki/windows-kernel-exploits)
+- [Linux Kernel Exploitation](https://github.com/xairy/linux-kernel-exploitation)
+
+**Lateral Movement**
+- [PayloadsAllTheThings - Mimikatz](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Mimikatz.md)
+- [Microsoft ATA - Lateral Movement Playbook](https://github.com/MicrosoftDocs/ATADocs/blob/master/ATPDocs/playbook-lateral-movement.md)
+- [ATT&CK Lateral Movement](https://github.com/rmusser01/Infosec_Reference/blob/master/Draft/ATT%26CK-Stuff/ATT%26CK/Lateral%20Movement.md)
+
+**Command and Control (Tutorials)**
+- **Covenant**: [Installation & Usage](https://endeav0r.medium.com/fun-with-covenant-c2-installation-usage-privilege-escalation-a2cc95259366), [Intro to Covenant](https://www.snaplabs.io/insights/intro-to-covenant-c2)
+- **Cobalt Strike**: [Cheatsheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Cobalt%20Strike%20-%20Cheatsheet.md), [In-Memory Evasion](https://www.cobaltstrike.com/blog/in-memory-evasion/)
+- **Sliver**: [Sliver C2](https://sevenlayers.com/index.php/229-sliver-c2), [Custom Shellcode Stager](https://lowery.tech/building-a-custom-shellcode-stager-with-process-injection-to-bypass-windows-defender/)
+
+**Defense Evasion (AV/EDR)**
+- [Veil-Evasion](https://github.com/Veil-Framework/Veil-Evasion)
+- [Inceptor](https://github.com/klezVirus/inceptor)
+- [SysWhispers2](https://github.com/jthuraisamy/SysWhispers2) / [SysWhispers3](https://github.com/klezVirus/SysWhispers3)
+- [Phantom-Evasion](https://github.com/oddcod3/Phantom-Evasion)
+- [AV Bypass with Metasploit](https://www.ired.team/offensive-security/defense-evasion/av-bypass-with-metasploit-templates)
+- [Bypassing Antivirus](https://sushant747.gitbooks.io/total-oscp-guide/content/bypassing_antivirus.html)
+- [Red Team Tips](https://www.redteam.tips/)
+
+## �📦 Installation & Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hrtywhy/host-tools.git
+   git clone https://github.com/hrtywhy/Adversary-Simulation-Toolkit.git
    ```
 2. Navigate to the directory:
    ```bash
-   cd host-tools
+   cd Adversary-Simulation-Toolkit
    ```
 3. Explore the `Tools` and `Use Case` directories for specific resources.
 
