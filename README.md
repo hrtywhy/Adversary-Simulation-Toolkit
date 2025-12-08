@@ -5,7 +5,7 @@
 Visualize and plan your adversary emulation scenarios using the MITRE ATT&CK Navigator.
 - **[MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/)**: A web-based tool for annotating and exploring ATT&CK matrices. Use this to map out the TTPs for your specific simulation plans (e.g., Crypto24).
 
-## �🛠️ Tools by Phase
+## 🛠️ Tools by Phase
 This toolkit organizes tools according to the standard Red Team phases.
 
 ### 1. Reconnaissance
@@ -34,36 +34,6 @@ This toolkit organizes tools according to the standard Red Team phases.
 - **[Empire](https://github.com/EmpireProject/Empire)**: Post-exploitation framework.
 - **[Impacket](https://github.com/CoreSecurity/impacket)**: Collection of Python classes for working with network protocols.
 
-### 5. Command and Control (C2)
-*Establishing a command channel.*
-- **[Covenant](https://github.com/cobbr/Covenant)**: .NET command and control framework.
-- **[Merlin](https://github.com/Ne0nd0g/merlin)**: Cross-platform post-exploitation HTTP/2 Command & Control server and agent.
-- **[PoshC2](https://github.com/nettitude/PoshC2)**: Proxy aware C2 framework written completely in PowerShell.
-
-### 6. Actions on Objectives
-*Achieving the original goals (Data Exfiltration, Lateral Movement, etc.).*
-- **[Mimikatz](https://github.com/gentilkiwi/mimikatz)**: Extract plaintexts passwords, hash, PIN code and kerberos tickets from memory.
-- **[CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec)**: Swiss army knife for pentesting networks.
-- **[PowerSploit](https://github.com/PowerShellMafia/PowerSploit)**: Collection of Microsoft PowerShell modules for penetration testers.
-- **[Rubeus](https://github.com/GhostPack/Rubeus)**: C# toolset for raw Kerberos interaction and abuses.
-
----
-
-## 📂 Local Tools Directory
-The `Tools` directory in this repository contains essential binaries and scripts for quick access:
-- **Remote Access & Administration**: `AnyDesk`, `Advanced IP Scanner`
-- **Network Discovery**: `IP Scan`
-- **Privilege Escalation**: `winPEAS` (and more)
-
-## 📚 Use Cases
-Explore the `Use Case` directory for detailed simulation plans and scenarios, including:
-- **Crypto24 Adversary Simulation Plan**: A deep dive into mimicking the TTPs of the Crypto24 ransomware group.
-
-## 📦 Installation & Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/hrtywhy/host-tools.git
-   ```
 2. Navigate to the directory:
    ```bash
    cd host-tools
