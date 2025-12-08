@@ -222,10 +222,18 @@ The `Tools` directory in this repository contains essential binaries and scripts
 - **Privilege Escalation**: `winPEAS` (and more)
 
 ## 📚 Use Cases
-Explore the `Use Case` directory for detailed simulation plans and scenarios, including:
+Explore the `Use Case` directory for detailed simulation plans and scenarios.
+
+**Ransomware & Cybercrime**
 - **[Crypto24 Adversary Simulation Plan](Use%20Case/Crypto24_Adversary_Simulation_Plan.md)**: A deep dive into mimicking the TTPs of the Crypto24 ransomware group.
 - **[SLSH (Scattered LAPSUS$ Hunters) Plan](Use%20Case/SLSH_Adversary_Simulation_Plan.md)**: Simulation of the federated cybercriminal alliance merging Scattered Spider, LAPSUS$, and ShinyHunters.
-- **[APT29 (Cozy Bear) Plan](Use%20Case/APT29_Adversary_Simulation_Plan.md)**: State-sponsored espionage simulation focusing on supply chain and stealthy persistence.
+
+**State-Sponsored APTs**
+*Comprehensive simulation plans for major nation-state actors.*
+- **[Russian APTs](Use%20Case/Russian%20APT)**: Includes **APT29 (Cozy Bear)**, **APT28 (Fancy Bear)**, and others.
+- **[Chinese APTs](Use%20Case/Chinese%20APT)**: Includes **Mustang Panda**, **Wicked Panda**, and others.
+- **[North Korean APTs](Use%20Case/North%20Koreans%20APT)**: Includes **Labyrinth Chollima**, **Velvet Chollima**, and others.
+- **[Iranian APTs](Use%20Case/Iranian%20APT)**: Includes **Helix Kitten**, **Pioneer Kitten**, and others.
 
 ## 📦 Installation & Usage
 1. Clone the repository:
