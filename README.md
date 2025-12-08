@@ -10,6 +10,15 @@ Visualize and plan your adversary emulation scenarios using the MITRE ATT&CK Nav
 ## 🛠️ Tools by Phase
 This toolkit organizes tools according to the standard Red Team phases, enriched with resources from the community.
 
+### 0. Adversary Simulation Platforms
+*Automated and manual platforms for mimicking adversary behavior.*
+- **[Atomic Red Team](https://www.atomicredteam.io/atomic-red-team)**: Library of simple tests mapped to the MITRE ATT&CK framework.
+- **[Caldera](https://github.com/mitre/caldera)**: Automated adversary emulation system by MITRE.
+- **[Infection Monkey](https://www.guardicore.com/infectionmonkey/)**: Open-source breach and attack simulation tool.
+- **[OpenBAS](https://github.com/OpenBAS-Platform/openbas)**: Open Breach and Attack Simulation platform.
+- **[Metta](https://github.com/uber-common/metta)**: Adversarial simulation tool by Uber (historical reference).
+- **[Stratus Red Team](https://github.com/DataDog/stratus-red-team)**: "Atomic Red Team" for Cloud (AWS, Azure, GCP).
+
 ### 1. Reconnaissance
 *Gathering intelligence on the target.*
 
@@ -98,6 +107,14 @@ This toolkit organizes tools according to the standard Red Team phases, enriched
 - **[ExternalC2](https://github.com/ryhanson/ExternalC2)**: Library for Cobalt Strike External C2.
 - **[mkhtaccess_red](https://github.com/violentlydave/mkhtaccess_red)**: Auto-generate HTaccess for payload delivery.
 - **[RedFile](https://github.com/outflanknl/RedFile)**: Flask app serving files with intelligence.
+
+**Simulation C2 Frameworks**
+*C2s specifically designed or well-suited for adversary simulation and research.*
+- **[BEAR](https://github.com/S3N4T0R-0X0/BEAR)**: C2 framework designed for mimicking Russian APT TTPs.
+- **[Sliver](https://github.com/BishopFox/sliver)**: Open source cross-platform adversary emulation/red team framework (Go).
+- **[Mythic](https://github.com/its-a-feature/Mythic)**: Collaborative, multi-platform, red teaming framework.
+- **[Havoc](https://github.com/HavocFramework/Havoc)**: Modern and malleable post-exploitation command and control framework.
+- **[Covenant](https://github.com/cobbr/Covenant)**: .NET command and control framework (also listed above).
 
 ### 5. Lateral Movement
 *Moving through the environment.*
