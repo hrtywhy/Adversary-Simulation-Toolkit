@@ -221,6 +221,13 @@ The `Tools` directory in this repository contains essential binaries and scripts
 - **Network Discovery**: `IP Scan`
 - **Privilege Escalation**: `winPEAS` (and more)
 
+## 🗂️ Resources
+Templates and guides for planning and executing adversary emulations.
+- **[Adversary Emulation Plan Template](Resources/Adversary%20Emulation/Adversary%20Emulation%20Plan%20Template.xlsx)**: Excel template for planning scenarios.
+- **[APT3 Adversary Emulation Field Manual](Resources/Adversary%20Emulation/APT3_Adversary_Emulation_Field_Manual%202.xlsx)**: Detailed field manual for APT3 emulation.
+- **[Cobalt Strike Cheat Sheet](Resources/Adversary%20Emulation/Cobalt%20Strike%20-%20Cheat%20Sheet.md)**: Quick reference for Cobalt Strike commands.
+- **[Ransomware Overview](Resources/Adversary%20Emulation/Ransomware%20Overview.xlsx)**: Comprehensive overview of ransomware families.
+
 ## 📚 Use Cases
 Explore the `Use Case` directory for detailed simulation plans and scenarios.
 
