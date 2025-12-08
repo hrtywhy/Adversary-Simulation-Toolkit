@@ -1,5 +1,3 @@
-# Adversary Simulation Toolkit
-
 ## 🚀 Overview
 **Adversary Simulation Toolkit** is a comprehensive collection of utilities and resources designed for red teaming, adversary emulation, and security research. This repository serves as a centralized hub for tools, use cases, and documentation to facilitate realistic threat simulation.
 
@@ -238,17 +236,36 @@ This toolkit organizes tools according to the standard Red Team phases, enriched
 ---
 
 ## 📂 Local Tools Directory
-The `Tools` directory in this repository contains essential binaries and scripts for quick access:
+The `Tools` directory in this repository contains essential binaries, scripts, and archives organized by phase:
+
+### 🛠️ Root Tools
 - **Remote Access & Administration**: `AnyDesk`, `Advanced IP Scanner`
 - **Network Discovery**: `IP Scan`
-- **Privilege Escalation**: `winPEAS` (and more)
+
+### 🕵️ Reconnaissance
+- **EyeWitness**: Tool to take screenshots of websites, provide server header info, and identify default credentials.
+
+### ⚔️ Weaponization & Privilege Escalation
+Contains various post-exploitation and privilege escalation tools, including:
+- **Mimikatz** & **Mimikatz.Kit**: Credential extraction.
+- **PEASS-ng**: Privilege Escalation Awesome Scripts Suite (including `winPEAS`).
+- **Rubeus**: Kerberos interaction and abuse.
+- **Seatbelt**: Safety checks and host survey.
+- **SharpUp**: C# port of PowerUp.
+- **SharpView**: C# implementation of PowerView.
+- **PowerUpSQL**: SQL Server discovery and exploitation.
+- **365-Stealer**: Phishing tool for Office 365.
+- **SweetPotato**: Local Service to SYSTEM privilege escalation.
+
+### 📡 Command and Control (C2)
+- **ArtifactKit Cobalt Strike**: Artifact kit for Cobalt Strike visualization and modification.
 
 ## 🗂️ Resources
 Templates and guides for planning and executing adversary emulations.
-- **[Adversary Emulation Plan Template](Resources/Adversary%20Emulation/Adversary%20Emulation%20Plan%20Template.xlsx)**: Excel template for planning scenarios.
-- **[APT3 Adversary Emulation Field Manual](Resources/Adversary%20Emulation/APT3_Adversary_Emulation_Field_Manual%202.xlsx)**: Detailed field manual for APT3 emulation.
-- **[Cobalt Strike Cheat Sheet](Resources/Adversary%20Emulation/Cobalt%20Strike%20-%20Cheat%20Sheet.md)**: Quick reference for Cobalt Strike commands.
-- **[Ransomware Overview](Resources/Adversary%20Emulation/Ransomware%20Overview.xlsx)**: Comprehensive overview of ransomware families.
+- **[Adversary Emulation Plan Template](Adversary%20Emulation%20Plan%20Template.xlsx)**: Excel template for planning scenarios.
+- **[APT3 Adversary Emulation Field Manual](Use%20Case/APT3_Adversary_Emulation_Field_Manual%202.xlsx)**: Detailed field manual for APT3 emulation.
+- **[Cobalt Strike Cheat Sheet](Cheat%20Sheet/Cobalt%20Strike%20-%20Cheat%20Sheet.md)**: Quick reference for Cobalt Strike commands.
+- **[Ransomware Overview](Ransomware%20Overview.xlsx)**: Comprehensive overview of ransomware families.
 
 ## 📚 Use Cases
 Explore the `Use Case` directory for detailed simulation plans and scenarios.
@@ -263,6 +280,7 @@ Explore the `Use Case` directory for detailed simulation plans and scenarios.
 - **[Chinese APTs](Use%20Case/Chinese%20APT)**: Includes **Mustang Panda**, **Wicked Panda**, and others.
 - **[North Korean APTs](Use%20Case/North%20Koreans%20APT)**: Includes **Labyrinth Chollima**, **Velvet Chollima**, and others.
 - **[Iranian APTs](Use%20Case/Iranian%20APT)**: Includes **Helix Kitten**, **Pioneer Kitten**, and others.
+- **[Data Exfiltration](Use%20Case/Data%20Exfiltration/VeilTF)**: Simulation of data exfiltration techniques using tools like **VeilTF**.
 
 ## � References & Learning Resources
 *Curated list of blogs, videos, and guides for advanced techniques.*
